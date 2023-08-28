@@ -156,7 +156,11 @@ a:not(.btn) {
 }
 
 a:not(.btn):focus, a:not(.btn):hover {
-    color: #224375
+    color: #224375 !important;
+}
+
+.home-area .fixed-wrapper .social-icons i.icon:hover{
+    color: #224375 !important;
 }
 
 .color-scheme {
